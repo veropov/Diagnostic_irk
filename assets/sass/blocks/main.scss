@@ -1,0 +1,21 @@
+    //base
+
+    @import "./base/base";
+
+    //blocks
+
+    @import "./menu";
+    @import "./slider";
+    @import "./search";
+    @import "./baners";
+    @import "./media";
+    @import "./centr";
+    @import "./rab_shtab";
+
+    
+    //DOM-MODAL
+    @import "./DOM/header__registr";
+    @import "./DOM/header__modal";
+    @import "./DOM/radio-select";
+    @import "./DOM/radio-reg";
+    @import "./DOM/calendar";

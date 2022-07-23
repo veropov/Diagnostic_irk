@@ -1,0 +1,15 @@
+.radio-reg {
+    display: none;;
+}
+    
+//ЛЕВЫЙ ЧЕК//
+    
+    .radio-reg:checked + .content_text-1 {
+        border-bottom: 3px solid rgb(35, 120, 198);
+    }
+
+//ПРАВЫЙ ЧЕК//
+
+    .radio-reg:checked + .content_text-2 {
+        border-bottom: 3px solid rgb(35, 120, 198);
+    }

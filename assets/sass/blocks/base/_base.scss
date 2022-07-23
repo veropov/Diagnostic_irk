@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: black;
+}
+
+.background {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    .back {
+        position: absolute;
+        background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.301) 0%, rgba(255, 255, 255, 0) 100%);
+        backdrop-filter: blur(40px);
+        width: 1800px;
+        height: 3000px;
+        z-index: 10;
+    }
+}

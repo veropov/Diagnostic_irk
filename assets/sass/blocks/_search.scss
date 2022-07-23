@@ -1,0 +1,232 @@
+/*ПОИСКОВИК*/
+.conteiner5 {
+    display: none;
+    justify-content: center;
+    align-content: center;
+    max-width: auto;
+    max-height: auto;
+    .easy__reg {
+        position: absolute;
+        top: 0;
+        margin-top: 150px;
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(35px);
+        z-index: 100;
+    }
+    label {
+        background: transparent;
+        font-size: 16px;
+        color: #3b3b3b;
+        padding-left: 15px;
+        padding-top: 20px;
+        font-weight: lighter;
+        transition: .2s linear;
+    } 
+        .reg {
+            font-size: 12px;
+            font-weight: normal;
+            color: #959595;
+            margin-bottom: 32px;
+        }
+        .reg__name {
+            font-size: 12px;
+            font-weight: normal;
+            color: #959595;
+            margin-bottom: 32px;
+            display: flex;
+            justify-content: space-between;
+        }
+            .input__style {
+                background-color: rgb(233, 242, 255);
+                border: 1px solid transparent;
+                border-radius: 6px;
+                width: 500px;
+                height: 60px;
+                transition: .2s linear;
+                &:hover {
+                    border: 1px solid #414141;
+                    background-color: transparent;
+                    border-radius: 6px;
+                }
+            }
+            .input__style__name{
+                background-color: rgb(241, 247, 255);
+                border: 1px solid transparent;
+                border-radius: 6px;
+                width: 240px;
+                height: 60px;
+                right: 20px;
+                transition: .2s linear;
+                &:hover {
+                    border: 1px solid #414141;
+                    background-color: transparent;
+                }
+            }
+                .input {
+                    cursor: pointer;
+                    font-size: 16px;
+                    position: absolute;
+                    border: none;
+                    background: transparent;
+                    width: 100%;
+                    outline: none;
+                    width: 500px;
+                    height: 60px;
+                    z-index: 100;
+                    transition: .2s linear;
+                    &:focus ~ label, &:not(:placeholder-shown) ~ label{
+                        padding-top: 5px;
+                        font-size: 12px;
+                        color: #b8b8b8;
+                    }
+                    .elastic__label {
+                        cursor: pointer;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        z-index: 10;
+                    }
+                }
+                .input__name {
+                    margin-top: 5px;
+                    margin-left: 15px;
+                    font-size: 16px;
+                    position: absolute;
+                    border: none;
+                    background: transparent;
+                    width: 100%;
+                    outline: none;
+                    width: 230px;
+                    height: 60px;
+                    z-index: 100;
+                    transition: .2s linear;
+                    &:focus ~ .elastic__label, &:not(:placeholder-shown) ~ .elastic__label{
+                        padding-top: 5px;
+                        font-size: 12px;
+                        color: #b8b8b8;
+                    }
+                }
+                    .elastic {
+                        font-weight: normal;
+                        font-size: 16px;
+                        color: black;
+                        margin-top: 10px;
+                        list-style-type: none;   
+                        border-radius: 4px;
+                        border: 1px solid #DBDBDB;
+                        background-color: transparent;
+                        display: none;
+                    }
+                        .text_elas {
+                            display: block;
+                            text-decoration: none;
+                            z-index: 1000;
+                            padding: 10px 20px;
+                            color: black;
+                            text-decoration: none;
+                            font-weight: lighter;
+                            transition: .1s;
+                            &:hover {
+                                background: rgba(40, 135, 224, 0.6);
+                                color: white;
+                            }
+                        }
+        
+    .button_cash { 
+        display: inline-block;
+        font-weight: normal;
+        text-decoration: none;
+        margin-top: 5px;
+        font-size: 13px;
+        color: white;
+        padding: 12px 40px;
+        border-radius: 6px;
+        background: #5099dd;
+        border: 1px solid #2779c7;
+        transition: .15s linear;
+        &:hover {
+            color: white;
+            background: #2779c7;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+        }
+    }
+
+    .button_cash-close {
+        display: inline-block;
+        font-weight: normal;
+        text-decoration: none;
+        margin-top: 5px;
+        font-size: 13px;
+        margin-left: 15px;
+        color: black;
+        padding: 12px 50px;
+        border-radius: 6px;
+        background: white;
+        border: 1px solid black;
+        transition: .15s linear;
+        &:hover {
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.12);
+            border: 1px solid #2779c7;
+        }
+    }
+                
+    .elastic li.hide {
+        display: none;
+    }
+        .input2 {
+            z-index: 100;
+            cursor: pointer;
+            position: relative;
+            border: none;
+            background: transparent;
+            outline: none;
+            width: 500px;
+            height: 60px;
+            transition: .2s linear;
+            &:focus ~ .elastic__label, &:not(:placeholder-shown) ~ .elastic__label{
+                padding-top: 5px;
+                font-size: 12px;
+                color: #b8b8b8;
+            }
+            .elastic__label {
+                cursor: pointer;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 10;
+            }
+        }
+            .elastic2 {
+                font-weight: normal;
+                font-size: 16px;
+                color: black;
+                margin-top: 10px;
+                list-style-type: none;   
+                border-radius: 4px;
+                border: 1px solid #DBDBDB;
+                background-color: transparent;
+                display: none;
+            } 
+                .elastic2 li.hide {
+                    display: none;
+                }
+
+        /*JS-ПОИСК ПО СЛОВУ*/
+        .elastic-hidden {
+             display: block;
+             padding: 0;
+        }
+        ul li a {
+            padding: 6px;
+        }
+
+    .conteiner5-hidden {
+        display: flex;
+    }
+}
+
+//JS//
+

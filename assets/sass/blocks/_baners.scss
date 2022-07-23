@@ -1,0 +1,103 @@
+.conteiner6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    .content__left {
+        z-index: 1;
+        background: white;
+        width: 550px;
+        padding: 20px;
+        margin-right: 50px;
+        border-radius: 20px;
+        border: 1px solid rgb(163, 163, 163);
+        transition: .2s linear;
+        &:hover {
+            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(131, 131, 131, 0.199);
+            transform: translateY(-5px);
+        }
+        cursor: pointer;
+        h4 {
+            z-index: 1;
+            color: #363636;
+        }
+        p {
+            z-index: 1;
+            padding-top: 5px;
+            padding-bottom: 50px;
+        }
+    }
+        .button__content__left {
+            display: inline-flex;
+            font-weight: normal;
+            text-decoration: none;
+            margin-top: 5px;
+            font-size: 12px;
+            color: black;
+            padding: 12px 40px;
+            border-radius: 6px;
+            border: 1px solid #5099dd;
+            transition: .15s linear;
+            &:hover {
+                background: #5099dd;
+                color: white;
+            }
+        }
+    .content__right {
+        background: white;
+        z-index: 1;
+        width: 550px;
+        padding: 20px;
+        cursor: pointer;
+        border-radius: 20px;
+        border: 1px solid rgb(163, 163, 163);
+        transition: .2s linear;
+        &:hover {
+            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(131, 131, 131, 0.199);
+            transform: translateY(-5px);
+        }
+        h4 {
+            color: #363636;
+        }
+        p{
+            padding-top: 5px;
+            padding-bottom: 50px;
+        }
+    }
+        .button__content__right {
+            display: inline-flex;
+            font-weight: normal;
+            text-decoration: none;
+            margin-top: 5px;
+            font-size: 12px;
+            color: black;
+            padding: 12px 40px;
+            border-radius: 6px;
+            border: 1px solid #5099dd;
+            transition: .15s linear;
+            &:hover {
+                background: #5099dd;
+                color: white;
+            }
+        }
+}
+
+.baners__img-1 {
+    z-index: -1;
+    position: absolute;
+    width: 380px;
+    margin-left: 250px;
+    margin-top: 55px;
+    
+}
+
+.baners__img-2 {
+    z-index: -1;
+    position: absolute;
+    width: 380px;
+    margin-left: 190px;
+    margin-top: 55px;
+    
+}

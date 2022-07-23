@@ -1,0 +1,151 @@
+
+.conteiner__modals {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 100px;
+    z-index: 100;
+    .modals {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 100px;
+        bottom: 100px;
+        width: 360px;
+        height: 340px;
+        border-radius: 30px;
+        background: rgba(61, 146, 224, 0.5);
+        backdrop-filter: blur(35px);
+        border: 3px solid #FFFFFF;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
+        .modal__header {
+            position: absolute;
+            width: 101%;
+            top: -1%;
+            transform: translateY(-0%);
+            border-top-left-radius: 26px;
+            border-top-right-radius: 26px;
+            background:#FFFFFF;
+            height: 60px;
+            justify-content: start;
+            .modal__text {
+                margin-top: 20px;
+                margin-left: 15px;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 26px;
+                color: #3F3F3F;
+            }
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            }
+            .modal__content__left{
+                background:#FFFFFF;
+                width: 120px;
+                margin: 0 20px;
+                border-radius: 20px;
+                border: 1px solid #3F3F3F;
+                text-decoration: none;
+                cursor: pointer;
+                .city__svg {
+                    margin-bottom: 10px;
+                    margin-top: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .city {
+                    border-top: 1px solid black;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    h6 {
+                        padding-top: 5px;
+                        }
+                    }
+                }
+            }
+            .modal__content__right{
+                background:#FFFFFF;
+                width: 120px;
+                margin: 0 20px;
+                border-radius: 20px;
+                border: 1px solid #3F3F3F;
+                cursor: pointer;
+                .city__svg {
+                    margin-bottom: 10px;
+                    margin-top: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .city {
+                    border-top: 1px solid black;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    h6 {
+                        padding-top: 5px;
+                    }
+                }
+            }
+        .modal__footer {
+            position: absolute;
+            top: 101%;
+            transform: translateY(-100%);
+            background:#FFFFFF;
+            height: 60px;
+            width: 101%;
+            justify-content: start;
+            border-bottom-left-radius: 26px;
+            border-bottom-right-radius: 26px;
+        }
+            .button_modal_reg {
+                display: inline-flex;
+                font-weight: normal;
+                font-size: 10px;
+                text-decoration: none;
+                color: white;
+                padding: 9px 22px;
+                margin-top: 12px;
+                margin-left: 20px;
+                border-radius: 15px;
+                background: #5099dd;
+                display: inline-block;
+                &:hover {
+                    background: #2779c7;
+                }
+            }
+            .button_modal_esc {
+                display: inline-flex;
+                font-weight: normal;
+                font-size: 10px;
+                text-decoration: none;
+                color: black;
+                padding: 8px 34px;
+                margin-top: 12px;
+                margin-left: 10px;
+                border-radius: 15px;
+                background: transparent;
+                border: 1px solid #3F3F3F;
+                display: inline-block;
+                &:hover {
+                    background: #3F3F3F;
+                    color: white;
+                }
+              }
+        .modals-hidden {
+            display: flex;
+        }
+    }
+    
+
+    

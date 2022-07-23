@@ -1,0 +1,270 @@
+
+/*ДОПОЛНИТЕЛЬНЫЕ ЭЛЕМЕНТЫ вне HTML*/
+.tpl_border {
+    border-width: 3px;
+    border-style: solid;
+    border-color: transparent;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+}
+
+.but_reg {
+    color: transparent;
+    display: inline-block;
+    font-weight: medium;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 60px;
+    transition: color .1s linear;
+}
+
+/*ХЭДЕР-ТЕНЬ*/
+.cent {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, .08);
+    background: #fbfcff;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+    /*ВЕРХНЕЕ МЕНЮ*/
+    .conteiner1 {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 6px;
+        max-width: auto;
+        border-width: 1px;
+        border-style: groove;
+        border-color: rgba(0,0,0, .35);
+        border-right: none;
+        border-left: none;
+        border-top: none;
+        z-index: 1000;
+
+        /*КНОПКИ*/
+        .but {
+            .button0 {
+
+                display: inline-block;
+                font-weight: medium;
+                text-decoration: none;
+                font-size: 20px;
+                color: black;  
+                margin: 0 60px;
+                padding-top: 5px;
+                transition: color .1s linear;
+            }
+            .button1 {
+                display: inline-block;
+                font-weight: normal;
+                text-decoration: none;
+                font-size: 12px;
+                color: black;  
+                margin: 0 10px;
+                padding: 8px 20px;
+                border-radius: 60px;
+                border: 1px solid #444444;
+                background: transparent;
+                transition: background .1s linear;
+                &:hover {
+                    box-shadow: 1px 1px 25px #B5B5B5;
+                    border-color: transparent;
+                    background: #0D86F5;
+                    color: white;
+                }
+            }
+
+            .button2 {
+                display: inline-block;
+                font-weight: normal;
+                text-decoration: none;
+                font-size: 12px;
+                color: black;
+                margin: 0 10px;
+                padding: 8px 20px;
+                border: 1px solid #444444;
+                border-radius: 60px;
+                background: transparent;
+                transition: background .1s linear;
+                &:hover {
+                    box-shadow: 1px 1px 25px #B5B5B5;
+                    border-color: transparent;
+                    background: #0D86F5;
+                    color: white;
+                }
+            }
+
+            .button3 {
+                display: inline-block;
+                font-weight: normal;
+                text-decoration: none;
+                font-size: 12px;
+                color: black;
+                margin: 0 10px;
+                padding: 8px 20px;
+                border: 1px solid #444444;
+                border-radius: 60px;
+                background: transparent;
+                transition: background .1s linear;
+                &:hover {
+                    box-shadow: 1px 1px 25px #B5B5B5;
+                    border-color: transparent;
+                    background: #0D86F5;
+                    color: white;
+                }
+            }
+
+            .svg_header1 {
+                display: inline-block;
+                margin-left: 60px;
+                
+            }
+                .bi-person-fill {
+                    margin: 10px;
+                    fill: transparent;
+                    stroke: black;
+                    stroke-width: 0.5;
+                    transition: .05s linear;
+                    &:hover {
+                        fill: cornflowerblue;
+                        stroke: cornflowerblue;
+                    }
+                }
+
+            .svg_header2 {
+                display: inline-block;
+            }
+                .bi-geo-alt-fill {
+                    margin: 10px;
+                    fill: transparent;
+                    stroke: black;
+                    stroke-width: 0.5;
+                    transition: .05s linear;
+                    &:hover {
+                        fill: #D17046;
+                        stroke: #D17046;
+                    }
+                }
+                
+            .svg_header3 {
+                display: inline-block;
+            }
+                .bi-bi-list {
+                    margin: 10px;
+                    fill: #444444;
+                    transition: .05s linear;
+                    &:hover {
+                    fill: black;
+                    }
+                }
+            @extend .but_reg
+        }            
+    }
+
+    /*НИЖНЕЕ МЕНЮ*/
+    .conteiner2 {
+        max-width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+        .menu {
+            display: inline-flex;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 16px;
+            color: black;
+            margin: 0 20px;
+            padding: 8px;
+            padding-top: 12px;
+            transition: .15s linear;
+            &:hover {
+                border-width: 3px;
+                border-style: solid;
+                border-color: rgb(119, 183, 255);
+                border-right: none;
+                border-left: none;
+                border-top: none;
+            }
+            .bi-bi-chevron-down {
+                margin-left: 8px;
+                margin-top: 5px;
+                transition: .30s ease;
+            }
+            &:hover .bi-bi-chevron-down {
+                transform: rotate(-180deg);
+            }
+            @extend .tpl_border
+        }
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+                background: #fbfcff;
+                border-radius: 4px;
+            }
+                ul li { 
+                    float: left;
+                    position: relative;
+                    padding: 0px;
+                    padding-top: 0px;
+                    transition: .2s;
+                }
+                    .text {
+                        text-decoration: none;
+                        font-size: 16px;
+                        font-weight: normal;
+                        color: black;
+                        transition:.15s linear;
+                        &:hover {
+                            border-width: 3px;
+                            border-style: solid;
+
+                            border-right: none;
+                            border-left: none;
+                            border-top: none;
+                        }
+                        &:hover .bi-bi-chevron-down {
+                            border-width: 3px;
+                            border-style: solid;
+                            border-color: rgb(119, 183, 255);
+                            border-right: none;
+                            border-left: none;
+                            border-top: none;
+                        }
+                        @extend .tpl_border
+                    }
+                    ul li ul {
+                        position: absolute;
+                        top: 49px;
+                        right: 0px;
+                        left: 6px;
+                        width: 600px;
+                        z-index: 1000;
+                        display: none;
+                        box-shadow: 0px 4px 10px rgba(0, 1, 0, .12);
+                        padding: 6px;
+                    }
+                        ul li:hover ul {
+                            display: block;
+                        }
+                            ul li ul li {
+                                width: 100%;
+                                border: none;
+                                margin: 0px;
+                                padding: 10px;
+                                cursor: pointer;
+                                &:hover {
+                                    background: rgb(218, 233, 255);
+                                }
+                            }
+                                ul li ul li a {
+                                    color: black;
+                                    padding: 10px;
+                                }
+    }
+
+
+
+       

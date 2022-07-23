@@ -1,0 +1,109 @@
+.conteiner__cal {
+    display: none;
+    justify-content: center;
+    z-index: 1000;
+    font-size: 75%;
+    font-size: 14px;
+    background: transparent;
+        .month {
+            background: rgb(255, 255, 255);
+            box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-top: 20px;
+            padding-top: 10px;
+            box-shadow: 0px 0px 4px rgba(0, 0, 15, 0.12);
+            z-index: 1000;
+            .date {
+                h2 {
+                    color: black;
+                    display: flex;
+                    justify-content: start;
+                    font-weight: lighter;
+                    margin-left: 20px;
+                }
+                p {
+                    color: black;
+                    display: flex;
+                    justify-content: start;
+                    font-weight: lighter;
+                    font-size: 16px;
+                    margin-left: 20px;
+                }
+            }
+                .bi-bi-chevron-down-date-1 {
+                    position: absolute;
+                    margin-left: 270px;
+                    cursor: pointer;
+                    &:hover {
+                        fill: rgb(112, 150, 255);
+                        box-shadow: 0px 0px 4px rgba(219, 227, 255, 0.2);
+                    }
+                }
+                .bi-bi-chevron-down-date-2 {
+                    position: absolute;
+                    margin-left: 310px;
+                    cursor: pointer;
+                    &:hover {
+                        fill: rgb(112, 150, 255);
+                        box-shadow: 0px 0px 4px rgba(219, 227, 255, 0.2);
+                    }
+                }
+            .weekdays {
+                padding: 10px 0px;
+                ul {
+                    display: flex;
+                    margin: 0;
+                    padding: 0;
+                    li {
+                        display: flex;
+                        justify-content: center;
+                        width: calc(100%/7);
+                        list-style-type: none;
+                    }
+                }
+            }
+            .days {
+                padding-bottom: 10px;
+                ul {
+                    width: 500px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin: 0;
+                    padding: 0;
+                    li {
+                        display: flex;
+                        justify-content: center;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        list-style-type: none;
+                        width: calc(100%/7);
+                        border: 2px solid transparent;
+                        background: transparent;
+                    }
+                        .last__date {
+                            color: rgba(0, 0, 0, 0.4);
+                        }
+                        .next__date {
+                            color: rgba(0, 0, 0, 0.4);
+                        }
+                    }
+                }
+            }
+            .conteiner__cal-hidden {
+                display: block;
+            }
+        }
+
+        .bruh {
+            left: 50%;
+            transform: translateX(-50%);
+            position: absolute;
+            margin-top: 700px;
+        }
+        .bi-bi-app {
+            fill: grey;
+        }
+
+        .bi-bi-check {
+            fill:rgb(112, 150, 255);
+        }

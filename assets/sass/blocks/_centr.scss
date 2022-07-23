@@ -1,0 +1,29 @@
+.conteiner__centr {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 140px;
+}
+
+    .background__centr {
+        max-width: 1150px;
+        background: #F7F8FA;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+        .p__centr {
+            width: 1150px;
+            font-size: 17px;
+            font-weight: normal;
+        }
+        .h__centr {
+            width: 1150px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .img__centr {
+            width: 1150px;
+            width: 100%;
+        }

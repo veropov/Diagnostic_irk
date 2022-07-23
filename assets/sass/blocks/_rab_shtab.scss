@@ -1,0 +1,56 @@
+.conteiner__rab__shtab {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 140px;
+}
+
+.shtab__doctor {
+    margin-top: 30px;
+    .background__shtab {
+        max-width: 1150px;
+        height: 300px;
+        background: #F7F8FA;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .name__doc {
+            display: flex;
+            justify-content: space-around;
+            p {
+                margin-top: 230px;
+                font-size: 16px;
+            }
+        }
+        .spec__doc {
+            display: flex;
+            justify-content: space-around;
+            p {
+                position: absolute;
+                top: 0;
+                font-size: 16px;
+                margin-top: 1310px;
+            }
+        }
+        .img__shtab {
+            width: 220px;
+            height: 220px;
+            background: rgb(160, 168, 187);
+            border-radius: 20px;
+        }
+    }
+}
+        .h__shtab {
+            width: 1150px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .p__shtab {
+            width: 1150px;
+            font-size: 17px;
+            font-weight: normal;
+        }
+        .mail {
+            cursor: pointer;
+            text-decoration: none;
+        }
