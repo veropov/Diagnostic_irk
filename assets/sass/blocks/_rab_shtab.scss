@@ -18,7 +18,7 @@
             display: flex;
             justify-content: space-around;
             p {
-                margin-top: 230px;
+                margin-top: 80px;
                 font-size: 16px;
             }
         }
@@ -37,6 +37,26 @@
             height: 220px;
             background: rgb(160, 168, 187);
             border-radius: 20px;
+            &:hover {
+                background: rgb(80, 96, 131);
+            }
+        }
+        .button__shtab {
+            display: flex;
+            justify-content: center;
+            padding-top: 150px;
+        }
+        .button__doc__shtab {
+        position: absolute;
+        display: none;
+        font-weight: lighter;
+        font-size: 14px;
+        text-decoration: none;
+        color: white;
+        padding: 10px 30px;
+        border-radius: 10px;
+        background: #5099dd;
+        cursor: pointer;
         }
     }
 }

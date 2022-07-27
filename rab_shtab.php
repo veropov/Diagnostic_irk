@@ -16,6 +16,9 @@
         <div class="h__shtab"><p>Врачи филиала</p></div>
             <div class="background__shtab">
                 <div class="img__shtab">
+                    <div class="button__shtab">
+                        <div class="button__doc__shtab">Записаться</div>
+                    </div>
                     <div class="name__doc">
                         <p>Имя врача</p>
                     </div>
@@ -23,7 +26,10 @@
                         <p>Отделение</p>
                     </div>
                 </div>
-                <div class="img__shtab">                    
+                <div class="img__shtab">
+                    <div class="button__shtab">
+                        <div class="button__doc__shtab">Записаться</div>
+                    </div>                    
                     <div class="name__doc">
                         <p>Имя врача</p>
                     </div>
@@ -31,7 +37,10 @@
                         <p>Отделение</p>
                     </div>
                 </div>
-                <div class="img__shtab">                    
+                <div class="img__shtab">  
+                    <div class="button__shtab">
+                        <div class="button__doc__shtab">Записаться</div>
+                    </div>                   
                     <div class="name__doc">
                         <p>Имя врача</p>
                     </div>
@@ -39,7 +48,10 @@
                         <p>Отделение</p>
                     </div>
                 </div>
-                <div class="img__shtab">                    
+                <div class="img__shtab"> 
+                    <div class="button__shtab">
+                        <div class="button__doc__shtab">Записаться</div>
+                    </div>                    
                     <div class="name__doc">
                         <p>Имя врача</p>
                     </div>
@@ -50,21 +62,33 @@
             </div>
             <div class="background__shtab">
                 <div class="img__shtab">
+                    <div class="button__shtab">
+                        <div class="button__doc__shtab">Записаться</div>
+                    </div> 
                     <div class="name__doc">
                         <p>Имя врача</p>
                     </div>
                 </div>
                 <div class="img__shtab">
+                    <div class="button__shtab">
+                        <div class="button__doc__shtab">Записаться</div>
+                    </div> 
                     <div class="name__doc">
                         <p>Имя врача</p>
                     </div>
                 </div>
                 <div class="img__shtab">
+                    <div class="button__shtab">
+                        <div class="button__doc__shtab">Записаться</div>
+                    </div> 
                     <div class="name__doc">
                         <p>Имя врача</p>
                     </div>
                 </div>
                 <div class="img__shtab">
+                    <div class="button__shtab">
+                        <div class="button__doc__shtab">Записаться</div>
+                    </div> 
                     <div class="name__doc">
                         <p>Имя врача</p>
                     </div>
@@ -76,3 +100,4 @@
 
 
 <script src="./assets/js/header.js"></script>
+<script src="./assets/js/centr.js"></script>

@@ -25,7 +25,6 @@
 
 
 <!--ЛЕГКАЯ РЕГИСТРАЦИЯ-->
-
 <div class="conteiner5">
     <div class="easy__reg">
         <div class="reg">
@@ -165,6 +164,8 @@
     </div>
 </div>
 
+
+<!--БАНЕРЫ-->
 <div class="conteiner6">
         <div class="content__left">
             <img src="assets/style/img/baners/baners 1.png" class="baners__img-1">
@@ -180,6 +181,109 @@
         </div>
 </div>
 
+
+<!--ФИЛИАЛЫ-->
+
+<!--Иконки-->
+<div class="branch__button__slider">
+    <svg xmlns="http://www.w3.org/2000/svg" class="arrow_left_circle" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" class="arrow_right_circle" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+    </svg>
+</div>
+
+<!--Заголовок-->
+<div class="branch__h">
+    <h3>Выберите нужный филиал</h3>
+</div>
+
+<!--Филиалы-->
+<div class="conteiner__branch">
+    <div class="branch__all">
+        <div class="branch">
+            <img src="./assets/style/img/baners/branch/Rab_shtab.jpeg" class="branch__img">
+            <div class="branch_elem">
+                <h6>Филиал Рабочего Штаба</h6>
+                <p>пн–пт 8:00–20:00<br>
+                сб–вс 9:00–15:00</p>
+            </div>
+            <div class="branch__button">
+                <div class="button">Записаться</div>
+            </div>
+        </div>
+        <div class="branch">
+            <img src="./assets/style/img/baners/branch/Lermontova.webp" class="branch__img">
+            <div class="branch_elem">
+                <h6>Филиал ул. Свердлова</h6>
+                <p>пн–пт 8:00–20:00<br>
+                сб–вс 9:00–15:00</p>
+            </div>
+            <div class="branch__button">
+                <div class="button">Записаться</div>
+            </div>
+        </div>
+        <div class="branch">
+            <img src="./assets/style/img/baners/branch/Sverdlova.webp" class="branch__img">
+            <div class="branch_elem">
+                <h6>Филиал ул. Лермонтова</h6>
+                <p>пн–пт 8:00–20:00<br>
+                сб–вс 9:00–15:00</p>
+            </div>
+            <div class="branch__button">
+                <div class="button">Записаться</div>
+            </div>
+        </div>
+        <div class="branch">
+            <img src="./assets/style/img/baners/branch/Bratsk.jpg" class="branch__img">
+            <div class="branch_elem">
+                <h6>Филиал в Братске</h6>
+                <p>пн–пт 8:00–20:00<br>
+                сб–вс 9:00–15:00</p>
+            </div>
+            <div class="branch__button">
+                <div class="button">Записаться</div>
+            </div>
+        </div>
+        <div class="branch">
+            <img src="./assets/style/img/baners/branch/Sverdlova.webp" class="branch__img">
+            <div class="branch_elem">
+                <h6>Филиал мкр. Солнечный</h6>
+                <p>пн–пт 8:00–20:00<br>
+                сб–вс 9:00–15:00</p>
+            </div>
+            <div class="branch__button">
+                <div class="button">Записаться</div>
+            </div>
+        </div>
+        <div class="branch">
+            <img src="./assets/style/img/baners/branch/Lermontova.webp" class="branch__img">
+            <div class="branch_elem">
+                <h6>Филиал Ново-Ленино</h6>
+                <p>пн–пт 8:00–20:00<br>
+                сб–вс 9:00–15:00</p>
+            </div>
+            <div class="branch__button">
+                <div class="button">Записаться</div>
+            </div>
+        </div>
+        <div class="branch">
+            <img src="./assets/style/img/baners/branch/Bratsk.jpg" class="branch__img">
+            <div class="branch_elem">
+                <h6>Филиал Ново-Ленино</h6>
+                <p>пн–пт 8:00–20:00<br>
+                сб–вс 9:00–15:00</p>
+            </div>
+            <div class="branch__button">
+                <div class="button">Записаться</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--ПРИЧИНЫ ВЫБРАТЬ ЦЕНТР-->
 <div class="conteiner7">
     <div class="media">
         <div class="media__title">
@@ -209,9 +313,13 @@
             </div>
         </div>
     </div>
+
+
 </div>
+
+
 </body>
 </html>
 
-<script src="./assets/js/fast_reg.js"></script>
+<script src="./assets/js/index.js"></script>
 <script src="./assets/js/header.js"></script>

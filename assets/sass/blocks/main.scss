@@ -2,18 +2,21 @@
 
     @import "./base/base";
 
-    //blocks
+    //Блоки
 
     @import "./menu";
     @import "./slider";
     @import "./search";
     @import "./baners";
+    @import "./branch";
     @import "./media";
+
+    //ХЭДЕР
     @import "./centr";
     @import "./rab_shtab";
 
     
-    //DOM-MODAL
+    //Модалки, календари, доп элементы
     @import "./DOM/header__registr";
     @import "./DOM/header__modal";
     @import "./DOM/radio-select";
