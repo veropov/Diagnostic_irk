@@ -1,11 +1,11 @@
-<?php include("./app/include/header.php"); ?>
+<?php include "./app/include/header.php"; ?>
 
 <body>
 <div class="conteiner__rab__shtab">
     <div class="shtab">
-        <div class="h__shtab"><p>Клиника ЦМД на ул. Рабочего Штаба</p></div>
+        <div class="h__shtab"><p>Клиника ЦМД на ул. Лермонтова</p></div>
         <div class="p__shtab">
-            <p>Адрес: г. Иркутск, ул. Рабочего Штаба, 29/1 (ост. «Кедр», вход с ул. Шевцова)</p>
+            <p>Адрес:  г. Иркутск, ул. Лермонтова, 267/2 (остановка «Школа №19»)</p>
             <p>Почтовый адрес: 664011, г. Иркутск, а/я 121</p>
             <p>Телефон: +7 (3952) 480-199</p>
             <p>Электронная почта <a class="mail" href="#">info@igcmd.ru</a></p>
@@ -131,5 +131,5 @@
 </body>
 
 
-<script src="assets/js/header.js"></script>
-<script src="assets/js/centr.js"></script>
+<script src="./assets/js/header.js"></script>
+<script src="./assets/js/centr.js"></script>

@@ -126,7 +126,6 @@
                             z-index: 1000;
                             padding: 10px 20px;
                             color: black;
-                            text-decoration: none;
                             font-weight: lighter;
                             transition: .1s;
                             &:hover {
@@ -230,3 +229,6 @@
 
 //JS//
 
+input {
+    color: rgb(53, 53, 53);
+}

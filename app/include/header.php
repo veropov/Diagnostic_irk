@@ -61,10 +61,10 @@ viewBox="0 0 16 16">
             <ul>
                 <li><a class="text" href="<?php echo BASE_URL . 'centr.php'?>">О Центре</a></li>
                 <li><a class="text" href="<?php echo BASE_URL . 'rab_shtab.php'?>">ООО "Клиника ЦМД" на ул.Рабочего Штаба</a></li>
-                <li><a class="text" href="#">Филиал ООО "Клиника ЦМД" в Ленинском районе (Ново-Ленино)</a></li>
-                <li><a class="text" href="#">Филиал ООО "Клиника ЦМД" на ул. Свердлова</a></li>
-                <li><a class="text" href="#">Филиал ООО "Клиника ЦМД" на ул. Лермонтова</a></li>
-                <li><a class="text" href="#">Филиал ООО "Клиника ЦМД" в мкр. Солнечный</a></li>
+                <li><a class="text" href="<?php echo BASE_URL . 'novo-lenino.php'?>">Филиал ООО "Клиника ЦМД" в Ленинском районе (Ново-Ленино)</a></li>
+                <li><a class="text" href="<?php echo BASE_URL . 'sverdlova.php'?>">Филиал ООО "Клиника ЦМД" на ул. Свердлова</a></li>
+                <li><a class="text" href="<?php echo BASE_URL . 'lermontova.php'?>">Филиал ООО "Клиника ЦМД" на ул. Лермонтова</a></li>
+                <li><a class="text" href="<?php echo BASE_URL . 'solnechniy.php'?>">Филиал ООО "Клиника ЦМД" в мкр. Солнечный</a></li>
                 <li><a class="text" href="#">Вакансии</a></li>
             </ul>
         </li>

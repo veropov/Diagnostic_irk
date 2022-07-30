@@ -526,7 +526,6 @@ p {
   z-index: 1000;
   padding: 10px 20px;
   color: black;
-  text-decoration: none;
   font-weight: lighter;
   -webkit-transition: .1s;
   transition: .1s;
@@ -627,6 +626,10 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+input {
+  color: #353535;
 }
 
 .conteiner6 {
@@ -1013,9 +1016,33 @@ p {
 .shtab__doctor {
   margin-top: 30px;
 }
+.shtab__doctor .branch__filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  max-width: 1180px;
+  overflow: hidden;
+}
+.shtab__doctor .branch__filter .branch__doctor__filter {
+  padding: 6px 10px;
+  border: 1px solid #b3b3b3;
+  border-radius: 6px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+.shtab__doctor .branch__filter .branch__doctor__filter:hover {
+  background: #5099dd;
+  cursor: pointer;
+  color: white;
+  border-color: #5099dd;
+}
 .shtab__doctor .background__shtab {
   max-width: 1150px;
-  height: 300px;
+  height: 280px;
   background: #F7F8FA;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1025,6 +1052,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-bottom: 15px;
 }
 .shtab__doctor .background__shtab .name__doc {
   display: -webkit-box;
@@ -1045,10 +1073,7 @@ p {
       justify-content: space-around;
 }
 .shtab__doctor .background__shtab .spec__doc p {
-  position: absolute;
-  top: 0;
   font-size: 16px;
-  margin-top: 1310px;
 }
 .shtab__doctor .background__shtab .img__shtab {
   width: 220px;
@@ -1095,6 +1120,10 @@ p {
 
 .mail {
   cursor: pointer;
+  text-decoration: none;
+}
+
+.branch a {
   text-decoration: none;
 }
 
@@ -1181,6 +1210,7 @@ p {
   -webkit-transition: .2s linear;
   transition: .2s linear;
   z-index: 100;
+  font-size: 15px;
 }
 .conteiner__modals-2 .modals-2 .reg__right .content__open .content__open__form .form__input:focus {
   border-bottom: 1px solid #444444;
@@ -1257,6 +1287,7 @@ p {
   -webkit-transition: .2s linear;
   transition: .2s linear;
   z-index: 100;
+  font-size: 15px;
 }
 .conteiner__modals-2 .modals-2 .reg__right .content__reg .content__reg__form .form__input:focus {
   border-bottom: 1px solid #444444;

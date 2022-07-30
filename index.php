@@ -1,5 +1,5 @@
 
-<?php include("app/include/header.php"); ?>
+<?php include("./app/include/header.php"); ?>
 <body>
 <!--СЛАЙДЕР ПОД МЕНЮ-->
 <div class="conteiner3">
@@ -202,79 +202,79 @@
 <!--Филиалы-->
 <div class="conteiner__branch">
     <div class="branch__all">
-        <div class="branch">
-            <img src="./assets/style/img/baners/branch/Rab_shtab.jpeg" class="branch__img">
+       <div class="branch">
+       <a href="<?php echo BASE_URL . 'rab_shtab.php'?>"><img src="./assets/style/img/baners/branch/Rab_shtab.jpeg" class="branch__img">
             <div class="branch_elem">
                 <h6>Филиал Рабочего Штаба</h6>
                 <p>пн–пт 8:00–20:00<br>
                 сб–вс 9:00–15:00</p>
-            </div>
+            </div></a>
             <div class="branch__button">
                 <div class="button">Записаться</div>
             </div>
         </div>
         <div class="branch">
-            <img src="./assets/style/img/baners/branch/Lermontova.webp" class="branch__img">
+            <a href="<?php echo BASE_URL . 'sverdlova.php'?>"><img src="./assets/style/img/baners/branch/Lermontova.webp" class="branch__img">
             <div class="branch_elem">
                 <h6>Филиал ул. Свердлова</h6>
                 <p>пн–пт 8:00–20:00<br>
                 сб–вс 9:00–15:00</p>
-            </div>
+            </div></a>
             <div class="branch__button">
                 <div class="button">Записаться</div>
             </div>
         </div>
         <div class="branch">
-            <img src="./assets/style/img/baners/branch/Sverdlova.webp" class="branch__img">
+        <a href="<?php echo BASE_URL . 'lermontova.php'?>"><img src="./assets/style/img/baners/branch/Sverdlova.webp" class="branch__img">
             <div class="branch_elem">
                 <h6>Филиал ул. Лермонтова</h6>
                 <p>пн–пт 8:00–20:00<br>
                 сб–вс 9:00–15:00</p>
-            </div>
+            </div></a>
             <div class="branch__button">
                 <div class="button">Записаться</div>
             </div>
         </div>
         <div class="branch">
-            <img src="./assets/style/img/baners/branch/Bratsk.jpg" class="branch__img">
+        <a href="<?php echo BASE_URL . 'novo-lenino.php'?>"><img src="./assets/style/img/baners/branch/Bratsk.jpg" class="branch__img">
             <div class="branch_elem">
-                <h6>Филиал в Братске</h6>
+                <h6>Филиал Ново-Ленино</h6>
                 <p>пн–пт 8:00–20:00<br>
                 сб–вс 9:00–15:00</p>
-            </div>
+            </div></a>
             <div class="branch__button">
                 <div class="button">Записаться</div>
             </div>
         </div>
         <div class="branch">
-            <img src="./assets/style/img/baners/branch/Sverdlova.webp" class="branch__img">
+        <a href="<?php echo BASE_URL . 'solnechniy.php'?>"><img src="./assets/style/img/baners/branch/Sverdlova.webp" class="branch__img">
             <div class="branch_elem">
                 <h6>Филиал мкр. Солнечный</h6>
                 <p>пн–пт 8:00–20:00<br>
                 сб–вс 9:00–15:00</p>
-            </div>
+            </div></a>
             <div class="branch__button">
                 <div class="button">Записаться</div>
             </div>
         </div>
         <div class="branch">
-            <img src="./assets/style/img/baners/branch/Lermontova.webp" class="branch__img">
+        <a href="<?php echo BASE_URL . 'novo-lenino.php'?>"><img src="./assets/style/img/baners/branch/Lermontova.webp" class="branch__img">
             <div class="branch_elem">
                 <h6>Филиал Ново-Ленино</h6>
                 <p>пн–пт 8:00–20:00<br>
                 сб–вс 9:00–15:00</p>
-            </div>
+            </div></a>
             <div class="branch__button">
                 <div class="button">Записаться</div>
             </div>
         </div>
         <div class="branch">
-            <img src="./assets/style/img/baners/branch/Bratsk.jpg" class="branch__img">
+        <a href="<?php echo BASE_URL . 'lermontova.php'?>"><img src="./assets/style/img/baners/branch/Bratsk.jpg" class="branch__img">
             <div class="branch_elem">
-                <h6>Филиал Ново-Ленино</h6>
+                <h6>Филиал в Братске</h6>
                 <p>пн–пт 8:00–20:00<br>
                 сб–вс 9:00–15:00</p>
-            </div>
+            </div></a>
             <div class="branch__button">
                 <div class="button">Записаться</div>
             </div>
@@ -283,7 +283,7 @@
 </div>
 
 
-<!--ПРИЧИНЫ ВЫБРАТЬ ЦЕНТР-->
+<!--БАНЕР ПЕРЕД ФУТЕРОМ-->
 <div class="conteiner7">
     <div class="media">
         <div class="media__title">

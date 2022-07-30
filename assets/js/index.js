@@ -195,6 +195,9 @@ eventTarget({
             })
             if (count >= document.querySelectorAll('.branch').length -4) { //Кол-во кликов = количеству филиалов (минус 4 на главном экране)
                 count = document.querySelectorAll('.branch').length -4
+                next.style.fill = 'rgb(201, 201, 201)'
+                next.style.cursor = 'default' 
+
                     next.addEventListener('mouseenter', () => { //Работа со стилями иконки вперед (Без css)
                     next.style.fill = 'rgb(201, 201, 201)'
                     next.style.cursor = 'default' 
@@ -229,6 +232,9 @@ eventTarget({
 
             if (count <= 0) { //Если кол-во кликов меньше нуля, слайдер не двигается
                 count = 0
+                back.style.fill = 'rgb(201, 201, 201)'
+                back.style.cursor = 'default' 
+                
                 back.addEventListener('mouseenter', () => { //Работа со стилями иконки назад (Без css)
                     back.style.fill = 'rgb(201, 201, 201)'
                     back.style.cursor = 'default' 

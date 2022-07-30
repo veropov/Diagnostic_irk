@@ -1,4 +1,4 @@
-<?php include ("./app/include/header.php"); ?>
+<?php include("./app/include/header.php"); ?>
 
 <div class="conteiner__centr">
     <div class="centr">
