@@ -89,33 +89,9 @@ viewBox="0 0 16 16">
                     <li><a class="text" href="#">Порядок выдачи расходных материалов</a></li>
                 </ul>
         </li>
-        <li><a class="menu" href="#">Специалисты<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-bi-chevron-down" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-          </svg></a>
-                    <ul>
-                        <li><a class="text" href="#">Терапевт</a></li>
-                        <li><a class="text" href="#">Аллерголог</a></li>
-                        <li><a class="text" href="#">Кардиолог</a></li>
-                        <li><a class="text" href="#">Ортопед</a></li>
-                        <li><a class="text" href="#">Педиатр</a></li>
-                        <li><a class="text" href="#">Хирург</a></li>
-                        <li><a class="text" href="#">Невролог</a></li>
-                        <li><a class="text" href="#">Гепатолог</a></li>
-                    </ul>
+        <li><a class="menu" href="<?php echo BASE_URL . 'expert.php'?>">Специалисты</a>
         </li>
-        <li><a class="menu" href="#">Центр реабилитации<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-bi-chevron-down" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-          </svg></a>
-                        <ul>
-                            <li><a class="text" href="#">Терапевт</a></li>
-                            <li><a class="text" href="#">Аллерголог</a></li>
-                            <li><a class="text" href="#">Кардиолог</a></li>
-                            <li><a class="text" href="#">Ортопед</a></li>
-                            <li><a class="text" href="#">Педиатр</a></li>
-                            <li><a class="text" href="#">Хирург</a></li>
-                            <li><a class="text" href="#">Невролог</a></li>
-                            <li><a class="text" href="#">Гепатолог</a></li>
-                        </ul>
+        <li><a class="menu" href="#">Центр реабилитации</a>
         </li>
         <li><a class="menu" href="#">Контакты</a></li>
     </ul>
@@ -182,12 +158,12 @@ viewBox="0 0 16 16">
                 <div class="content__open__form" id="modal__open">
 
                     <div class="open__group">
-                        <input class="form__input" placeholder=" ">
+                        <input class="form__input" id="mail" placeholder=" ">
                         <label class="form__label">Email</label>
                     </div>
 
                     <div class="open__group">
-                        <input class="form__input" placeholder=" ">
+                        <input class="form__input" id="password" type="password" placeholder=" ">
                         <label class="form__label">Пароль</label>
                     </div>
 
@@ -203,17 +179,17 @@ viewBox="0 0 16 16">
                         <div class="modal__reg">
 
                             <div class="open__group">
-                                <input class="form__input" placeholder=" ">
+                                <input class="form__input" id="mail__reg" placeholder=" ">
                                 <label class="form__label">Email</label>
                             </div>
         
                             <div class="open__group">
-                                <input class="form__input" placeholder=" ">
+                                <input class="form__input" id="password__reg" type="password" placeholder=" ">
                                 <label class="form__label">Пароль</label>
                             </div>
 
                             <div class="open__group">
-                                <input class="form__input" placeholder=" ">
+                                <input class="form__input" id="password__return" type="password" placeholder=" ">
                                 <label class="form__label">Подтведите пароль</label>
                             </div>
         

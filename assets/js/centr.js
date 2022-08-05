@@ -1,4 +1,5 @@
 
+
 //наведение мышки на фотографию врача - появление кнопки//
 
 const imgStab = document.querySelectorAll('.img__shtab')
@@ -11,7 +12,6 @@ for (let i = 0; i<=imgStab.length; i++) {
     imgStab[i].addEventListener('mouseleave', () => 
     button[i].style.display="none")
 }
-
 
 
 

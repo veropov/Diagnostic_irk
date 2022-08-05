@@ -50,23 +50,42 @@ eventTarget({
     }
 })
 
+//Проверка пароля при регистрации
 eventTarget({ 
     model: '#modal_esc-2',
     evt: 'click', 
-    value: () => {
+    value: () => { 
+        if (document.querySelector('#password__reg').value == document.querySelector('#password__return').value
+        && document.querySelector('#mail__reg').value != '') {
         document.querySelector('#modal_reg').style.display="none"
         backBlur.style.display="none"
+        } else if (document.querySelector('#password__reg').value == '' 
+        && document.querySelector('#password__return').value == '' 
+        && document.querySelector('#mail__reg').value == '') {
+            document.querySelector('#modal_reg').style.display="flex"
+            backBlur.style.display="flex" 
+            } else alert('Пароли не совпадают')
     }
 })
 
+//Подтверждение пароля при входе
 eventTarget({ 
     model: '#modal_open-2',
     evt: 'click', 
     value: () => {
+        if (document.querySelector('#password').value == '121257' && document.querySelector('#mail').value == 'vyacheslav.eropov@yandex.ru') {
         document.querySelector('#modal_reg').style.display="none"
         backBlur.style.display="none"
+        } else if (
+            document.querySelector('#password').value == '' && document.querySelector('#mail').value == '') {
+                document.querySelector('#modal_reg').style.display="flex"
+                backBlur.style.display="flex"
+            } else alert('Введены неверный пароль или почта')
     }
 })
+
+console.log(document.querySelector('#password'))
+
 
 //ВЫБОР РЕГИСТРАЦИИ ИЛИ АВТОРИЗАЦИИ//
 

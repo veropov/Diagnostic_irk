@@ -1,0 +1,82 @@
+
+.conteiner__expert {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+    .shtab__doctor {
+        padding-top: 30px;
+
+        .branch__filter {
+            display: flex;
+            justify-content: flex-start;
+            max-width: 1180px;
+            overflow: hidden;
+            .branch__doctor__filter {
+                padding: 6px 10px;
+                border: 1px solid  rgb(179, 179, 179);
+                border-radius: 6px;
+                margin-left: 20px;
+                margin-bottom: 20px;
+                font-size: 15px;
+                &:hover {
+                    background: #5099dd;
+                    cursor: pointer;
+                    color: white;
+                    border-color: #5099dd;
+                }
+            }
+        }
+        .background__shtab {
+            max-width: 1150px;
+            height: 300*4px;
+            background: #F7F8FA;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-items: center;
+            padding-bottom: 15px;
+            .name__doc {
+                display: flex;
+                justify-content: space-around;
+                p {
+                    margin-top: 80px;
+                    font-size: 16px;
+                }
+            }
+            .spec__doc {
+                display: flex;
+                justify-content: space-around;
+                p {
+                    font-size: 16px;
+                }
+            }
+            .img__shtab {
+                width: 220px;
+                height: 220px;
+                background: rgb(160, 168, 187);
+                border-radius: 20px;
+                margin: 30px;
+                &:hover {
+                    background: rgb(80, 96, 131);
+                }
+            }
+            .button__shtab {
+                display: flex;
+                justify-content: center;
+                padding-top: 150px;
+            }
+            .button__doc__shtab {
+            position: absolute;
+            display: none;
+            font-weight: lighter;
+            font-size: 14px;
+            text-decoration: none;
+            color: white;
+            padding: 10px 30px;
+            border-radius: 10px;
+            background: #5099dd;
+            cursor: pointer;
+            }
+        }
+    }

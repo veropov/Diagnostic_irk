@@ -219,7 +219,7 @@
   text-decoration: none;
   font-size: 16px;
   color: black;
-  margin: 0 20px;
+  margin: 0 25px;
   padding: 8px;
   padding-top: 12px;
   -webkit-transition: .15s linear;
@@ -384,7 +384,9 @@ p {
 
 /*ПОИСКОВИК*/
 .conteiner5 {
-  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -392,20 +394,44 @@ p {
       align-content: center;
   max-width: auto;
   max-height: auto;
+  background: #85b2cc;
   /*JS-ПОИСК ПО СЛОВУ*/
 }
 .conteiner5 .easy__reg {
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   top: 0;
   margin-top: 150px;
-  padding: 30px;
+  width: 1150px;
+  padding: 70px 30px;
   border-radius: 20px;
-  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
-          box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
   background: rgba(255, 255, 255, 0.95);
-  -webkit-backdrop-filter: blur(35px);
-          backdrop-filter: blur(35px);
-  z-index: 100;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.205);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.205);
+}
+.conteiner5 .all__reg {
+  display: block;
+}
+.conteiner5 .all__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 500px;
+  overflow: hidden;
+  margin-left: 50px;
+}
+.conteiner5 .all__img .branch__img {
+  border-radius: 20px;
+  width: 460px;
+  height: 420px;
 }
 .conteiner5 label {
   background: transparent;
@@ -422,6 +448,8 @@ p {
   font-weight: normal;
   color: #959595;
   margin-bottom: 32px;
+  width: 500px;
+  margin-left: 80px;
 }
 .conteiner5 .reg__name {
   font-size: 12px;
@@ -434,6 +462,8 @@ p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 500px;
+  margin-left: 80px;
 }
 .conteiner5 .input__style {
   background-color: #e9f2ff;
@@ -473,7 +503,6 @@ p {
   outline: none;
   width: 500px;
   height: 60px;
-  z-index: 100;
   -webkit-transition: .2s linear;
   transition: .2s linear;
 }
@@ -487,7 +516,6 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 10;
 }
 .conteiner5 .input__name {
   margin-top: 5px;
@@ -500,7 +528,6 @@ p {
   outline: none;
   width: 230px;
   height: 60px;
-  z-index: 100;
   -webkit-transition: .2s linear;
   transition: .2s linear;
 }
@@ -523,7 +550,6 @@ p {
 .conteiner5 .text_elas {
   display: block;
   text-decoration: none;
-  z-index: 1000;
   padding: 10px 20px;
   color: black;
   font-weight: lighter;
@@ -541,10 +567,10 @@ p {
   margin-top: 5px;
   font-size: 13px;
   color: white;
-  padding: 12px 40px;
-  border-radius: 6px;
+  padding: 16px 48px;
+  border-radius: 4px;
   background: #5099dd;
-  border: 1px solid #2779c7;
+  border: 1px solid #5099dd;
   -webkit-transition: .15s linear;
   transition: .15s linear;
 }
@@ -554,31 +580,10 @@ p {
   -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
 }
-.conteiner5 .button_cash-close {
-  display: inline-block;
-  font-weight: normal;
-  text-decoration: none;
-  margin-top: 5px;
-  font-size: 13px;
-  margin-left: 15px;
-  color: black;
-  padding: 12px 50px;
-  border-radius: 6px;
-  background: white;
-  border: 1px solid black;
-  -webkit-transition: .15s linear;
-  transition: .15s linear;
-}
-.conteiner5 .button_cash-close:hover {
-  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.12);
-          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.12);
-  border: 1px solid #2779c7;
-}
 .conteiner5 .elastic li.hide {
   display: none;
 }
 .conteiner5 .input2 {
-  z-index: 100;
   cursor: pointer;
   position: relative;
   border: none;
@@ -599,7 +604,6 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 10;
 }
 .conteiner5 .elastic2 {
   font-weight: normal;
@@ -1013,8 +1017,39 @@ input {
   padding-top: 140px;
 }
 
+.h__shtab {
+  width: 1150px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.p__shtab {
+  width: 1150px;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.mail {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.branch a {
+  text-decoration: none;
+}
+
+.conteiner__expert {
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .shtab__doctor {
-  margin-top: 30px;
+  padding-top: 30px;
 }
 .shtab__doctor .branch__filter {
   display: -webkit-box;
@@ -1042,13 +1077,15 @@ input {
 }
 .shtab__doctor .background__shtab {
   max-width: 1150px;
-  height: 280px;
+  height: 1200px;
   background: #F7F8FA;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1080,6 +1117,7 @@ input {
   height: 220px;
   background: #a0a8bb;
   border-radius: 20px;
+  margin: 30px;
 }
 .shtab__doctor .background__shtab .img__shtab:hover {
   background: #506083;
@@ -1104,27 +1142,6 @@ input {
   border-radius: 10px;
   background: #5099dd;
   cursor: pointer;
-}
-
-.h__shtab {
-  width: 1150px;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.p__shtab {
-  width: 1150px;
-  font-size: 17px;
-  font-weight: normal;
-}
-
-.mail {
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.branch a {
-  text-decoration: none;
 }
 
 .tpl {

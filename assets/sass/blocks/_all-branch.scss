@@ -5,94 +5,20 @@
     padding-top: 140px;
 }
 
-.shtab__doctor {
-    margin-top: 30px;
-    .branch__filter {
-        display: flex;
-        justify-content: flex-start;
-        max-width: 1180px;
-        overflow: hidden;
-        .branch__doctor__filter {
-            padding: 6px 10px;
-            border: 1px solid  rgb(179, 179, 179);
-            border-radius: 6px;
-            margin-left: 20px;
-            margin-bottom: 20px;
-            font-size: 15px;
-            &:hover {
-                background: #5099dd;
-                cursor: pointer;
-                color: white;
-                border-color: #5099dd;
-            }
-        }
-    }
-    .background__shtab {
-        max-width: 1150px;
-        height: 280px;
-        background: #F7F8FA;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding-bottom: 15px;
-        .name__doc {
-            display: flex;
-            justify-content: space-around;
-            p {
-                margin-top: 80px;
-                font-size: 16px;
-            }
-        }
-        .spec__doc {
-            display: flex;
-            justify-content: space-around;
-            p {
-                font-size: 16px;
-            }
-        }
-        .img__shtab {
-            width: 220px;
-            height: 220px;
-            background: rgb(160, 168, 187);
-            border-radius: 20px;
-            &:hover {
-                background: rgb(80, 96, 131);
-            }
-        }
-        .button__shtab {
-            display: flex;
-            justify-content: center;
-            padding-top: 150px;
-        }
-        .button__doc__shtab {
-        position: absolute;
-        display: none;
-        font-weight: lighter;
-        font-size: 14px;
-        text-decoration: none;
-        color: white;
-        padding: 10px 30px;
-        border-radius: 10px;
-        background: #5099dd;
-        cursor: pointer;
-        }
-    }
+.h__shtab {
+    width: 1150px;
+    font-size: 28px;
+    font-weight: bold;
 }
-        .h__shtab {
-            width: 1150px;
-            font-size: 28px;
-            font-weight: bold;
-
-        }
-        .p__shtab {
-            width: 1150px;
-            font-size: 17px;
-            font-weight: normal;
-        }
-        .mail {
-            cursor: pointer;
-            text-decoration: none;
-        }
+.p__shtab {
+    width: 1150px;
+    font-size: 17px;
+    font-weight: normal;
+}
+.mail {
+    cursor: pointer;
+    text-decoration: none;
+}
 
 .branch {
     a {
