@@ -23,6 +23,6 @@
                     <p><?php if ($value['spec'] == 'Терапевт') { echo $value['name']; }?></p>
                 </div>
             </div>
-            <?php endforeach ?>   
-        </div>
-    </div> 
+        <?php endforeach ?>   
+    </div>
+</div> 

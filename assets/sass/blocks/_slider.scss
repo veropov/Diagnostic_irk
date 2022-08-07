@@ -17,19 +17,16 @@ p {
         .text__slider {
             word-break: break-all;
             max-width: auto;
-            background-color: transparent;
             padding-top: 150px;
             margin-left: 120px;
         }
             .title__slider {
                 position: absolute;
-                background-color: transparent;
                 font-size: 30px;
             }
             .main__text__slider {
                 max-width: auto;
                 font-size: 16px;;
-                background-color: transparent;
                 padding-top: 180px;
                 width: 400px;
                 margin-bottom: 40px;
@@ -51,12 +48,10 @@ p {
             }
         }
         .banners {
-            background-color: transparent;
             padding-top: 120px;
             .slider__img {
                 width: 100%;
                 width: 850px;
-                background-color: transparent;
             }
     }
 }

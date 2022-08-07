@@ -106,3 +106,18 @@ eventTarget({
         document.querySelector('#modal__open').style.display="none"
     }
 })
+
+const widthMenu = document.querySelector('.conteiner2').offsetWidth
+const HeaderCentr = document.querySelector('#HeaderCentr')
+const HeaderDoc = document.querySelector('#HeaderDoc')
+
+setTimeout(() => {
+    if (widthMenu < 1116) {
+        HeaderCentr.style.display = 'none'
+        HeaderDoc.style.display = 'none'
+    } else {
+        HeaderCentr.style.display = 'inline-flex'
+        HeaderDoc.style.display = 'inline-flex'
+    }
+}, 1000)
+

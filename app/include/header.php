@@ -28,13 +28,13 @@
 <!-- ВЕРХНИЙ ХЭДЕР-->  
 <header class="conteiner1">
     <div class="but">
-        <a href="<?php echo BASE_URL?>"><img src="assets/style/img/logo.png" width="150px"></a>
+        <a href="<?php echo BASE_URL?>"><img src="assets/style/img/logo.png" class="img__header"></a>
         <a class="button0" href="#">+7(3952)480-199</a>
         <a class="button1" href="#">Скорая помощь</a>
         <a class="button2" href="#">Вызов врача на дом</a>
         <a class="button3" href="#">Запись онлайн</a>
         <a class="svg_header1" href="#" id="svg_city" data-toggle="modal" data-target="#myModal">
-            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="25" class="bi-geo-alt-fill" 
+            <svg xmlns="http://www.w3.org/2000/svg" class="bi-geo-alt-fill" 
                  viewBox="0 0 16 16">
                 <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
             </svg></a>
@@ -68,7 +68,7 @@ viewBox="0 0 16 16">
                 <li><a class="text" href="#">Вакансии</a></li>
             </ul>
         </li>
-        <li><a class="menu" href="#">Услуги и цены</a></li>
+        <li><a class="menu" href="<?php echo BASE_URL . 'uslugi.php'?>">Услуги и цены</a></li>
         <li><a class="menu" href="#">Пациенту<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-bi-chevron-down" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
           </svg></a>
@@ -79,7 +79,7 @@ viewBox="0 0 16 16">
         <li><a class="text" href="#">Правила госпитализации</a></li>
             </ul>
         </li>
-        <li><a class="menu" href="#">Врачу<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-bi-chevron-down" viewBox="0 0 16 16">
+        <li><a class="menu" id="HeaderDoc" href="#">Врачу<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-bi-chevron-down" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
           </svg>
             </a>
@@ -91,7 +91,7 @@ viewBox="0 0 16 16">
         </li>
         <li><a class="menu" href="<?php echo BASE_URL . 'expert.php'?>">Специалисты</a>
         </li>
-        <li><a class="menu" href="#">Центр реабилитации</a>
+        <li><a class="menu" id="HeaderCentr" href="#">Центр реабилитации</a>
         </li>
         <li><a class="menu" href="#">Контакты</a></li>
     </ul>
